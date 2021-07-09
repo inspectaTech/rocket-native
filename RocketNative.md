@@ -1,5 +1,22 @@
 # RocketNative Notes
 
+## help guides/ articles/ tutorials/ notes
+[WebRTC Let's learn together (ReactNative) - Part 4](https://youtu.be/uR_92JkSezA)   
+> youtube video tutorial series
+> it helps to do the earlier parts
+
+[React Native Notes](https://github.com/techthehood/notes/blob/master/react%20native/react%20native%20notes.md)  
+[React Native install and device testing notes (getting started notes)](https://github.com/techthehood/notes/blob/master/react%20native/react%20native%20getting%20started.md)    
+[app keeps stopping issue](https://github.com/techthehood/notes/blob/master/react%20native/react%20native%20webrtc%20crash.md)   
+[react native webrtc notes](https://github.com/techthehood/notes/blob/master/react%20native/react%20native%20webrtc.md)   
+
+#### GOTCHA: [Socket.io client is not working with React Native](https://stackoverflow.com/questions/55443912/socket-io-client-is-not-working-with-react-native)   
+> i had to roll back to a previous version (i was using version 4 something)
+
+```
+  npm i socket.io-client@2.1.1
+```
+
 ## fixing the localStream video issue
 
 **GOTCHA:** App_tutorial the absolutely position localStream RTCView is covered by the remoteStream element
